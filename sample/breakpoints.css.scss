@@ -34,7 +34,7 @@
 	display: none;
 }
 
-@include vui-gs-small() {
+@media (min-width: 768px) {
 
 	#bp-extra-small {
 		display: none;
@@ -59,7 +59,7 @@
 
 }
 
-@include vui-gs-medium() {
+@media (min-width: 992px) {
 
 	#bp-extra-small {
 		display: none;
