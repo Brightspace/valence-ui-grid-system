@@ -1,0 +1,34 @@
+{
+  "name": "vui-grid-system",
+  "version": "0.0.1",
+  "description": "Mixins for laying out elements on a grid.",
+  "scripts": {
+    "build:css:gutters": "node-sass --output-style expanded ./sample/gutters.css.scss ./sample/gutters.css",
+    "build:css:simple": "node-sass --output-style expanded ./sample/simple.css.scss ./sample/simple.css",
+    "build:css:isolate": "node-sass --output-style expanded ./sample/isolate.css.scss ./sample/isolate.css",
+    "postinstall": "bower install",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brightspace/valence-ui-grid-system.git"
+  },
+  "keywords": [
+    "d2l",
+    "valence-ui",
+    "vui"
+  ],
+  "author": "D2L Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/valence-ui-grid-system/issues"
+  },
+  "homepage": "https://github.com/Brightspace/valence-ui-grid-system",
+  "dependencies": {
+    "bower": "^1.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.1",
+    "postcss-cli": "^2.3.2"
+  }
+}
