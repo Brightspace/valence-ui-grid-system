@@ -5,5 +5,4 @@
 .travis.yml
 bower_components
 node_modules
-sample
 test
