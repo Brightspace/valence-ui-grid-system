@@ -1,0 +1,10 @@
+
+@mixin vui-gs-container() {
+
+	@include container();
+
+	&.vui-gs-debug {
+		@include show-grid(show background);
+	}
+
+}

@@ -1,0 +1,273 @@
+.app {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.app.vui-gs-debug {
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 70%, transparent 70%);
+  background-size: 8.54701%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+
+.app * {
+  box-sizing: border-box;
+}
+
+.header {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: rgba(0, 0, 250, 0.4);
+  height: 60px;
+}
+
+.stuff-1 {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.stuff-1 > div {
+  width: 5.98291%;
+  float: left;
+  margin-right: 2.5641%;
+  background-color: rgba(0, 250, 0, 0.4);
+  height: 40px;
+}
+
+[dir='rtl'] .stuff-1 > div {
+  width: 5.98291%;
+  float: right;
+  margin-left: 2.5641%;
+  margin-right: 0;
+}
+
+.stuff-1 > div:last-child {
+  width: 5.98291%;
+  float: right;
+  margin-right: 0;
+}
+
+[dir='rtl'] .stuff-1 > div:last-child {
+  width: 5.98291%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.stuff-2 {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.stuff-2 > div {
+  height: 40px;
+}
+
+.stuff-2 > div:nth-child(1) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(1) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 0;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(2) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 8.54701%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(2) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 8.54701%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(3) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 17.09402%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(3) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 17.09402%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(4) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 25.64103%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(4) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 25.64103%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(5) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 34.18803%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(5) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 34.18803%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(6) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 42.73504%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(6) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 42.73504%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(7) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 51.28205%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(7) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 51.28205%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(8) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 59.82906%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(8) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 59.82906%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(9) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 68.37607%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(9) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 68.37607%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(10) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 76.92308%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(10) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 76.92308%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(11) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 85.47009%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(11) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 85.47009%;
+  margin-left: -100%;
+  margin-right: 0;
+}
+
+.stuff-2 > div:nth-child(12) {
+  background-color: rgba(102, 0, 102, 0.4);
+  width: 5.98291%;
+  float: left;
+  margin-left: 94.01709%;
+  margin-right: -100%;
+}
+
+[dir='rtl'] .stuff-2 > div:nth-child(12) {
+  width: 5.98291%;
+  float: right;
+  margin-right: 94.01709%;
+  margin-left: -100%;
+  margin-right: 0;
+}
