@@ -17,24 +17,31 @@
 }
 
 .stuff-1 > div {
-	@include vui-gs-span(12 break);
 	background-color: rgba(250,0,0,0.4);
 	height: 60px;
 }
 
-#bp-extra-small {
-	display: block;
+@media (max-width: 767px) {
+
+	#bp-extra-small {
+		display: block;
+	}
+
+	#bp-small {
+		display: none;
+	}
+
+	#bp-medium {
+		display: none;
+	}
+
+	.stuff-1 > div {
+		@include vui-gs-span(12 break);
+	}
+
 }
 
-#bp-small {
-	display: none;
-}
-
-#bp-medium {
-	display: none;
-}
-
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
 	#bp-extra-small {
 		display: none;
@@ -49,7 +56,7 @@
 	}
 
 	.stuff-1 > div {
-		@include vui-gs-span(4 nobreak);
+		@include vui-gs-span(4);
 	}
 
 	.stuff-1 > div:nth-child(3),
@@ -73,12 +80,11 @@
 		display: block;
 	}
 
-	.stuff-1 > div,
-	.stuff-1 > div:nth-child(3) {
-		@include vui-gs-span(2 nobreak);
+	.stuff-1 > div {
+		@include vui-gs-span(2);
 	}
 
-	.stuff-1 > div:nth-child(6) {
+	.stuff-1 > div:last-child {
 		@include vui-gs-span(last 2);
 	}
 
