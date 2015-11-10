@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Mixins for laying out elements on a grid.",
   "scripts": {
+    "build:css:breakpoints": "node-sass --output-style expanded ./sample/breakpoints.css.scss ./sample/breakpoints.css",
     "build:css:gutters": "node-sass --output-style expanded ./sample/gutters.css.scss ./sample/gutters.css",
     "build:css:simple": "node-sass --output-style expanded ./sample/simple.css.scss ./sample/simple.css",
     "build:css:isolate": "node-sass --output-style expanded ./sample/isolate.css.scss ./sample/isolate.css",

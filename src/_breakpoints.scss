@@ -1,0 +1,24 @@
+
+@mixin vui-gs-small() {
+
+	@media (min-width: 768px) {
+		@content;
+	}
+
+}
+
+@mixin vui-gs-medium() {
+
+	@media (min-width: 992px) {
+		@content;
+	}
+
+}
+
+@mixin vui-gs-large() {
+
+	@media (min-width: 1200px) {
+		@content;
+	}
+
+}
