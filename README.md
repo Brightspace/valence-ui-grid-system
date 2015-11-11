@@ -58,7 +58,7 @@ Use the `vui-gs-span` mixin to create styles to span one or more columns.  Suppo
 	// an element that spans 2 columns
 	@include vui-gs-span(2);
 
-	// an element that spans the last 2 columns
+	// an element that spans the last 2 columns (no right margin)
 	@include vui-gs-span(last 2);
 
 	// an element that spans 2 columns and then breaks floats
