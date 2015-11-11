@@ -20,7 +20,7 @@ bower install vui-grid-system
 
 ## Usage
 
-### Import the mixins
+**Import the mixins:**
 
 ```scss
 @import 'bower_components/vui-grid-system/grid-system.scss'; // or...
@@ -28,7 +28,7 @@ bower install vui-grid-system
 @import "node_modules/vui-grid-system/grid-system.scss";
 ```
 
-### Set the grid container 
+**Set the grid container:** 
 
 Use the `vui-gs-container` mixin to setup the grid container.  It defines the grid-system as per VUI design guidelines, including number of columns, dimensions, etc.
 
@@ -38,7 +38,7 @@ Use the `vui-gs-container` mixin to setup the grid container.  It defines the gr
 }
 ```
 
-### Create rows
+**Create rows:**
 
 Use the `vui-gs-row` mixin to create styles for a complete grid row that spans all the columns.  Floats will be cleared automatically so elements that follow in the DOM will be rendered below.
 
@@ -48,7 +48,7 @@ Use the `vui-gs-row` mixin to create styles for a complete grid row that spans a
 }
 ```
 
-### Create spans
+**Create spans:**
 
 Use the `vui-gs-span` mixin to create styles to span one or more columns.  Supports properties for defining edge columns, forcing breaks, and changing context (number of columns).
 
@@ -70,7 +70,7 @@ Use the `vui-gs-span` mixin to create styles to span one or more columns.  Suppo
 }
 ```
 
-**A note about `vui-gs-span` arguments:**
+Notes for `vui-gs-span` arguments:
 
 * `last` is used to indicate the last span in a row, so that gutter margins are not applied after the element, thereby preventing the last span from wrapping.
 * `break` is used to idicate that current floats should be cleared after the span, forcing the following spans onto a new row. This is helpful in some cases since it means spans do not necessarily need to wrapped in row `div`s.
