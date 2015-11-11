@@ -6,6 +6,38 @@
 
 This component contains Sass mixins for laying out UI elements as per the standard Brightspace VUI design.
 
+## Installation
+
+Install from NPM:
+```shell
+npm install vui-grid-system
+```
+
+Install from Bower:
+```shell
+bower install vui-grid-system
+```
+
+## Usage
+
+Import the mixins:
+
+```scss
+@import 'bower_components/vui-grid-system/grid-system.scss'; // or...
+
+@import "node_modules/vui-grid-system/grid-system.scss";
+```
+
+Set the grid container - this sets up the grid system for the specified element:
+
+```scss
+.app {
+	@include vui-gs-container;
+}
+```
+
+
+
 For further information on this component and other VUI components, see the docs at [ui.valence.d2l.com](http://ui.valence.d2l.com/).
 
 #### Coding styles
