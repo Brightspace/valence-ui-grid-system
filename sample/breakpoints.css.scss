@@ -5,10 +5,6 @@
 	@include vui-gs-container;
 }
 
-.app * {
-	box-sizing: border-box;
-}
-
 .header {
 	@include vui-gs-row;
 	background-color: rgba(0,0,250,0.4);

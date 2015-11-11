@@ -1,6 +1,10 @@
 
 @mixin vui-gs-container() {
 
+	* {
+		box-sizing: border-box;
+	}
+
 	@include container();
 
 	&.vui-gs-debug {
