@@ -12,6 +12,6 @@
     "package.json"
   ],
   "dependencies": {
-    "susy": "~2.2.6"
+    "susy": "~2.2.12"
   }
 }
