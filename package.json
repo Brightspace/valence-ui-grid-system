@@ -8,7 +8,7 @@
     "build:css:simple": "node-sass --output-style expanded ./sample/simple.css.scss ./sample/simple.css",
     "build:css:isolate": "node-sass --output-style expanded ./sample/isolate.css.scss ./sample/isolate.css",
     "postinstall": "bower install",
-    "test": "npm run build:css:simple && npm run build:css:gutters && npm run build:css:isolate"
+    "test": "npm run build:css:simple && npm run build:css:gutters && npm run build:css:isolate && npm run build:css:breakpoints"
   },
   "repository": {
     "type": "git",
