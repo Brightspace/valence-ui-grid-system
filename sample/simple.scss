@@ -1,18 +1,17 @@
-
 @import '../grid-system.scss';
 
-.app {
-	@include vui-gs-container;
+main {
+	@include vui-gs-container();
 }
 
-.header {
-	@include vui-gs-row;
+header {
+	@include vui-gs-row();
 	background-color: rgba(0,0,250,0.4);
 	height: 60px;
 }
 
 .stuff-1 {
-	@include vui-gs-row;
+	@include vui-gs-row();
 }
 
 .stuff-1 > div {
@@ -30,14 +29,13 @@
 }
 
 .stuff-2 {
-	@include vui-gs-row;
+	@include vui-gs-row();
 }
 
 .stuff-2 > div {
 	@include vui-gs-span(4);
 	background-color: rgba(250,250,0,0.4);
 	height: 60px;
-
 }
 
 .stuff-2 > div:first-child {
@@ -61,7 +59,7 @@
 }
 
 .stuff-4 {
-	@include vui-gs-row;
+	@include vui-gs-row();
 }
 
 .stuff-4 > div {

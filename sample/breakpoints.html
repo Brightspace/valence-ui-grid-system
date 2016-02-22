@@ -29,8 +29,8 @@
 
 	</div>
 
-	<button onclick="document.getElementsByClassName('app')[0].className='app vui-gs-debug'">Show Grid</button>
-	<button onclick="document.getElementsByClassName('app')[0].className='app'">Hide Grid</button>
+	<button onclick="document.getElementsByClassName('app')[0].classList.add('vui-gs-debug')">Show Grid</button>
+	<button onclick="document.getElementsByClassName('app')[0].classList.remove('vui-gs-debug')">Hide Grid</button>
 	<button onclick="document.getElementsByClassName('app')[0].setAttribute('dir','ltr')">LTR</button>
 	<button onclick="document.getElementsByClassName('app')[0].setAttribute('dir','rtl')">RTL</button>
 
