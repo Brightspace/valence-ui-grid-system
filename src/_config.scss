@@ -1,3 +1,4 @@
+$d2l-vui-grid-system-gutters: 30/70 !default;
 
 $susy: (
 	flow: ltr,
@@ -8,7 +9,7 @@ $susy: (
 	container-position: center,
 	last-flow: to,
 	columns: 12,
-	gutters: 30/70,
+	gutters: $d2l-vui-grid-system-gutters,
 	gutter-position: after,
 	global-box-sizing: border-box,
 	debug: (
