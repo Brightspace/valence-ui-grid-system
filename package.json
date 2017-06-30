@@ -1,6 +1,6 @@
 {
   "name": "vui-grid-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mixins for laying out elements on a grid.",
   "scripts": {
     "build:css:breakpoints": "node-sass --output-style expanded ./sample/breakpoints.css.scss ./sample/breakpoints.css",
